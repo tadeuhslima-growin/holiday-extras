@@ -1,0 +1,36 @@
+.photo-skeleton {
+  border: 2px solid #C3C3C3;
+  box-shadow: 0 2px 7px 0 rgba(0,0,0, 0.15);
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 400px;
+
+  div {
+    margin: 5px 0;
+  }
+
+  .photo-card__skeleton {
+    width:400px;
+    height:300px;
+    -webkit-mask:
+      linear-gradient(#000 0 0) top         / 100% 70%,
+      linear-gradient(#000 0 0) bottom right / 100% 10%;
+    -webkit-mask-repeat:no-repeat;
+    background:linear-gradient(90deg,#ccca 40%,#fffa ,#ccca 60%) right/300% 100% ;
+    animation: m 1s linear infinite;
+  }
+
+  @keyframes m {
+    to {background-position:left;}
+  }
+  
+  
+  .photo-card__tags {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,23 @@
+.Container {
+  width: 80%;
+  margin: auto;
+
+  input {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    color: #542e91;
+    background-color: #fee443;
+    border: 5px solid #fff6c9;
+    padding-left: 10px;
+
+    &::placeholder {
+      font-family: 'Roboto';
+      font-size: 16px;
+    }
+
+    &:focus-within , &:focus , &:focus-visible {
+      border: 3px solid #7551ae;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.photo-card {
+  border: 2px solid #C3C3C3;
+  box-shadow: 0 2px 7px 0 rgba(0,0,0, 0.15);
+  display: flex;  
+  padding: 20px;
+  margin: 20px;
+  flex-direction: column;
+  width: 300px;
+  text-align: justify;
+  
+  div {
+    margin: 5px 0;
+  }
+  
+  .photo-card__image {
+    min-height: 370px;
+    max-width: 250px;
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .photo-card__desc {
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .photo-card__tags {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: auto;
+  }
+}
