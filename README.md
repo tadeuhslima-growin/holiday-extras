@@ -2,9 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+### Available Scripts
 
 In the project directory, you can run:
+
+
+### `Clone the project`
+
+Thanks for the opportunity to take a shot for a front end developer in your company!
+Just clone this project now and go for the next step!
+
+### `config the .env file`
+
+In the .env.example file you have the base url to get the project running but you need to decide if you are going to run it in a local with .env.local production. Anyway [here] (https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env) you should find some help if you need. 
 
 ### `yarn start`
 
