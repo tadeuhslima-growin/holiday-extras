@@ -17,6 +17,10 @@ Just clone this project now and go for the next step!
 
 In the .env.example file you have the base url to get the project running but you need to decide if you are going to run it in a local with .env.local production. Anyway [here] (https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env) you should find some help if you need. 
 
+### `yarn`
+
+Run the command yarn to install the node modules and the project itself.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
